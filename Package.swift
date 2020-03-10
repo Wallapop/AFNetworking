@@ -11,7 +11,8 @@ let package = Package(
     targets: [
         .target(
             name: "AFNetworking iOS",
-            path: "AFNetworking"
+            path: "AFNetworking",
+            publicHeadersPath: nil
         )
     ]
 )
