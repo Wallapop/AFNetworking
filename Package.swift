@@ -9,8 +9,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "AFNetworking",
-            path: "AFNetworking"
+            name: "AFNetworking iOS"
         )
     ]
 )
