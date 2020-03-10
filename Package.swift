@@ -1,3 +1,4 @@
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
@@ -9,7 +10,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "AFNetworking iOS"
+            name: "AFNetworking iOS",
+            path: "AFNetworking"
         )
     ]
 )
