@@ -30,7 +30,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "299522381BBF104D00859F49"
                BuildableName = "AFNetworking.framework"
-               BlueprintName = "AFNetworking iOS"
+               BlueprintName = "AFNetworking"
                ReferencedContainer = "container:AFNetworking.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,9 +40,30 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "NO"
       enableAddressSanitizer = "YES"
-      codeCoverageEnabled = "YES"
-      shouldUseLaunchSchemeArgsEnv = "NO">
+      codeCoverageEnabled = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "299522381BBF104D00859F49"
+            BuildableName = "AFNetworking.framework"
+            BlueprintName = "AFNetworking"
+            ReferencedContainer = "container:AFNetworking.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "HTTPBIN_BASE_URL"
+            value = "http://127.0.0.1:5000"
+            isEnabled = "NO">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -60,29 +81,6 @@
             </SkippedTests>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "299522381BBF104D00859F49"
-            BuildableName = "AFNetworking.framework"
-            BlueprintName = "AFNetworking iOS"
-            ReferencedContainer = "container:AFNetworking.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "OS_ACTIVITY_MODE"
-            value = "disable"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "HTTPBIN_BASE_URL"
-            value = "http://127.0.0.1:5000"
-            isEnabled = "NO">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -99,7 +97,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "299522381BBF104D00859F49"
             BuildableName = "AFNetworking.framework"
-            BlueprintName = "AFNetworking iOS"
+            BlueprintName = "AFNetworking"
             ReferencedContainer = "container:AFNetworking.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -110,8 +108,6 @@
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -124,7 +120,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "299522381BBF104D00859F49"
             BuildableName = "AFNetworking.framework"
-            BlueprintName = "AFNetworking iOS"
+            BlueprintName = "AFNetworking"
             ReferencedContainer = "container:AFNetworking.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

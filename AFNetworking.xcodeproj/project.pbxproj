@@ -695,9 +695,9 @@
 			productReference = 298D7C4A1BC2C7B200FD3B3E /* AFNetworking macOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		299522381BBF104D00859F49 /* AFNetworking iOS */ = {
+		299522381BBF104D00859F49 /* AFNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 299522411BBF104D00859F49 /* Build configuration list for PBXNativeTarget "AFNetworking iOS" */;
+			buildConfigurationList = 299522411BBF104D00859F49 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
 			buildPhases = (
 				299522341BBF104D00859F49 /* Sources */,
 				299522351BBF104D00859F49 /* Frameworks */,
@@ -708,7 +708,7 @@
 			);
 			dependencies = (
 			);
-			name = "AFNetworking iOS";
+			name = AFNetworking;
 			productName = AFNetworking;
 			productReference = 299522391BBF104D00859F49 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
@@ -796,7 +796,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				299522381BBF104D00859F49 /* AFNetworking iOS */,
+				299522381BBF104D00859F49 /* AFNetworking */,
 				299522641BBF129200859F49 /* AFNetworking watchOS */,
 				299522761BBF136400859F49 /* AFNetworking macOS */,
 				2987B0A41BC408A200179A4C /* AFNetworking tvOS */,
@@ -1069,7 +1069,7 @@
 		};
 		298D7C421BC2C79500FD3B3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 299522381BBF104D00859F49 /* AFNetworking iOS */;
+			target = 299522381BBF104D00859F49 /* AFNetworking */;
 			targetProxy = 298D7C411BC2C79500FD3B3E /* PBXContainerItemProxy */;
 		};
 		298D7C511BC2C7B200FD3B3E /* PBXTargetDependency */ = {
@@ -1576,7 +1576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		299522411BBF104D00859F49 /* Build configuration list for PBXNativeTarget "AFNetworking iOS" */ = {
+		299522411BBF104D00859F49 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				299522421BBF104D00859F49 /* Debug */,

@@ -6,11 +6,11 @@ let package = Package(
     platforms: [.iOS(.v10)],
     // platforms: [.iOS("10.0")],
     products: [
-        .library(name: "AFNetworking", targets: ["AFNetworking iOS"])
+        .library(name: "AFNetworking", targets: ["AFNetworking"])
     ],
     targets: [
         .target(
-            name: "AFNetworking iOS",
+            name: "AFNetworking",
             path: "AFNetworking",
             publicHeadersPath: nil
         )
